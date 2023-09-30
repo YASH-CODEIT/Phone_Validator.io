@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.header {
+    background-color: #336699;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.main {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    background-color: #336699;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2a5679;
+}
+
+#validationResult {
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+    color: #FF5733;
+    font-size: 18px;
+}
+
+.valid {
+    color: #4CAF50;
+}
+
+#resetButton {
+    background-color: #FF5733;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+#resetButton:hover {
+    background-color: #cc4c30;
+}
+
+.cta {
+    background-color: #336699;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    background-color: #336699;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header .icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.main {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    background-color: #336699;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2a5679;
+}
+
+#validationResult {
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+    color: #FF5733;
+    font-size: 18px;
+}
+
+.valid {
+    color: #4CAF50;
+}
+
+#resetButton {
+    background-color: #FF5733;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+#resetButton:hover {
+    background-color: #cc4c30;
+}
+
+.cta {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}

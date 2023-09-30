@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Phone Validator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header text-white bg-info py-5">
+        <div class="container text-center">
+            <img src="images/344017-200.png" alt="Phone Icon" class="mb-4">
+            <h1 class="display-4">Verify Your Phone Number</h1>
+            <p class="lead">Ensure that your phone number is valid and properly formatted.</p>
+        </div>
+    </header>
+
+    <div class="main py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="form-container bg-white p-4 rounded shadow">
+                        <div class="position-relative">
+                            <input type="text" id="phoneInput" class="form-control mb-3" placeholder="Enter phone number">
+                            <i class="fas fa-times-circle" id="clearIcon" onclick="clearInput()"></i>
+                        </div>
+                        <button onclick="validate()" class="btn btn-info btn-block mb-3">Validate</button>
+                        <p id="validationResult"></p>
+                        <button id="resetButton" onclick="resetValidation(); resetButtonAnimation()" class="btn btn-danger btn-block">
+                            <i class="fas fa-redo-alt"></i> Reset
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta text-white py-5">
+        <div class="container text-center">
+            <h2 class="display-4 mb-3">Ready to get started?</h2>
+            <p class="lead mb-4">Enter your phone number and click 'Validate' to ensure it's correct.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        function clearInput() {
+            document.getElementById('phoneInput').value = '';
+        }
+    </script>
+</body>
+</html>
